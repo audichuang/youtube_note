@@ -61,14 +61,14 @@ fi
 echo ""
 echo "📁 建立 Skill 目錄..."
 mkdir -p "$SKILL_DIR/scripts"
-mkdir -p "$SKILL_DIR/templates"
+mkdir -p "$SKILL_DIR/assets"
 mkdir -p "$SKILL_DIR/references"
 
 # 複製檔案
 echo "📋 複製檔案..."
 cp "$SOURCE_DIR/SKILL.md" "$SKILL_DIR/"
 cp "$SOURCE_DIR/scripts/"*.py "$SKILL_DIR/scripts/"
-cp "$SOURCE_DIR/templates/"*.md "$SKILL_DIR/templates/"
+cp "$SOURCE_DIR/assets/"*.md "$SKILL_DIR/assets/"
 cp "$SOURCE_DIR/references/"*.md "$SKILL_DIR/references/"
 
 # 複製 .env（如果存在且目標不存在）
