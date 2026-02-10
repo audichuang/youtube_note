@@ -1,0 +1,52 @@
+# Output directories
+youtube-notes/
+
+# Video and audio files
+*.mp4
+*.mkv
+*.avi
+*.flv
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+
+# Subtitle files
+*.vtt
+*.srt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary
+*.tmp
+*.log
